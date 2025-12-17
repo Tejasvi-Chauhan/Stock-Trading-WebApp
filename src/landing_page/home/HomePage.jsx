@@ -13,14 +13,14 @@ const HomePage=()=>{
         <>
       
 
-        <Navbar/>
+        
         <Hero />
         <Awards/>
         <Stats/>
         <Pricing/>
         <Education/>
         <OpenAccount/>
-        <Footer/>
+        
         </>
     )
 }

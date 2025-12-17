@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -7,13 +8,13 @@ const Navbar = () => {
       style={{ backgroundColor: "#fff",  borderBottom: "1px solid #eee",
       boxShadow: "0 2px 8px rgba(0,0,0,0.05)" }}
     >
-      <div className="container">
-        {/* BRAND */}
-        <a className="navbar-brand" href="#">
-          <h2 className="m-0">Stock Trading app</h2>
-        </a>
+      <div className="container p-2">
+        
+        <Link className="navbar-brand" to="/"> <h2 className="m-0">Stock Trading app</h2></Link>
+         
+        
 
-        {/* TOGGLER */}
+        
         <button
           className="navbar-toggler"
           type="button"
@@ -23,26 +24,26 @@ const Navbar = () => {
           <span className="navbar-toggler-icon"></span>
         </button>
 
-        {/* MENU */}
+       
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul
             className="navbar-nav mb-2 mb-lg-0"
             style={{ marginLeft: "400px" }}
           >
             <li className="nav-item">
-              <a className="nav-link active" href="#">Signup</a>
+             <Link className="nav-link active" aria-current="page" to={"/signup"}>Signup</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">About</a>
+              <Link className="nav-link active" aria-current="page" to={"/about"}>About</Link>
+            </li>
+            <li>
+            <Link className="nav-link active" aria-current="page" to={"/product"}>Products</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">Product</a>
+             <Link className="nav-link active" aria-current="page" to={"/pricing"}>Pricing</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" href="#">Pricing</a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link active" href="#">Support</a>
+              <Link className="nav-link active" aria-current="page" to={"/support"}>Support</Link>
             </li>
           </ul>
         </div>

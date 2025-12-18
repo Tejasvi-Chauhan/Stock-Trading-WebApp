@@ -6,9 +6,9 @@ function Footer() {
       <div className="container border-top mt-5">
         <div className="row mt-5">
           <div className="col">
-            <img src="media/images/logo.svg" style={{ width: "50%" }} />
+           <h3>EquiTrade</h3>
             <p>
-              &copy; 2010 - 2024, Not Zerodha Broking Ltd. All rights reserved.
+              &copy; 2020 - 2025, Not EquiTrade Broking Ltd. All rights reserved.
             </p>
           </div>
           <div className="col">
@@ -54,50 +54,47 @@ function Footer() {
           </div>
         </div>
         <div className="mt-5 text-muted" style={{ fontSize: "14px" }}>
-          <p>
-            Zerodha Broking Ltd.: Member of NSE​ &​ BSE – SEBI Registration no.:
-            INZ000031633 CDSL: Depository services through Zerodha Securities
-            Pvt. Ltd. – SEBI Registration no.: IN-DP-100-2015 Commodity Trading
-            through Zerodha Commodities Pvt. Ltd. MCX: 46025 – SEBI Registration
-            no.: INZ000038238 Registered Address: Zerodha Broking Ltd.,
-            #153/154, 4th Cross, Dollars Colony, Opp. Clarence Public School,
-            J.P Nagar 4th Phase, Bengaluru - 560078, Karnataka, India. For any
-            complaints pertaining to securities broking please write to
-            complaints@zerodha.com, for DP related to dp@zerodha.com. Please
-            ensure you carefully read the Risk Disclosure Document as prescribed
-            by SEBI | ICF
-          </p>
+         <p>
+  EquiTrade Broking Pvt. Ltd.: Member of NSE & BSE – SEBI Registration No.:
+  INZ0000XXXXX. Depository services are provided through EquiTrade Securities
+  Pvt. Ltd. – SEBI Registration No.: IN-DP-XXX-20XX. Commodity trading services
+  are offered via EquiTrade Commodities Pvt. Ltd. – MCX: XXXXX – SEBI
+  Registration No.: INZ0000XXXXX. Registered Office: EquiTrade Broking Pvt.
+  Ltd., #XXX, 4th Cross, Tech Park Road, J.P Nagar Phase 4, Bengaluru – 5600XX,
+  Karnataka, India. For grievances related to securities broking, please
+  contact support@equitrade.com and for depository-related issues write to
+  dp@equitrade.com. Investors are advised to carefully read the Risk
+  Disclosure Document prescribed by SEBI.
+</p>
 
-          <p>
-            Procedure to file a complaint on SEBI SCORES: Register on SCORES
-            portal. Mandatory details for filing complaints on SCORES: Name,
-            PAN, Address, Mobile Number, E-mail ID. Benefits: Effective
-            Communication, Speedy redressal of the grievances
-          </p>
+<p>
+  Procedure to lodge a complaint on SEBI SCORES: Register on the SCORES portal.
+  Mandatory details required for filing a complaint include Name, PAN,
+  Address, Mobile Number, and Email ID. SCORES enables effective
+  communication and faster resolution of investor grievances.
+</p>
 
-          <p>
-            Investments in securities market are subject to market risks; read
-            all the related documents carefully before investing.
-          </p>
+<p>
+  Investments in the securities market are subject to market risks. Please
+  read all related documents carefully before investing.
+</p>
 
-          <p>
-            "Prevent unauthorised transactions in your account. Update your
-            mobile numbers/email IDs with your stock brokers. Receive
-            information of your transactions directly from Exchange on your
-            mobile/email at the end of the day. Issued in the interest of
-            investors. KYC is one time exercise while dealing in securities
-            markets - once KYC is done through a SEBI registered intermediary
-            (broker, DP, Mutual Fund etc.), you need not undergo the same
-            process again when you approach another intermediary." Dear
-            Investor, if you are subscribing to an IPO, there is no need to
-            issue a cheque. Please write the Bank account number and sign the
-            IPO application form to authorize your bank to make payment in case
-            of allotment. In case of non allotment the funds will remain in your
-            bank account. As a business we don't give stock tips, and have not
-            authorized anyone to trade on behalf of others. If you find anyone
-            claiming to be part of Zerodha and offering such services, please
-            create a ticket here.
-          </p>
+<p>
+  Prevent unauthorised transactions in your trading and demat accounts by
+  updating your registered mobile number and email ID with your stock
+  broker. Transaction-related information will be sent directly by the
+  Exchange to your registered contact details at the end of the day. KYC is a
+  one-time process carried out through a SEBI-registered intermediary
+  (broker, DP, mutual fund, etc.) and does not need to be repeated for other
+  intermediaries. Investors subscribing to IPOs are not required to issue a
+  cheque. Kindly mention your bank account details and authorize the bank for
+  payment in case of allotment. In case of non-allotment, funds will remain in
+  your bank account. EquiTrade does not provide stock tips or authorize any
+  individual to trade on behalf of clients. If you come across anyone
+  claiming to represent EquiTrade and offering such services, please report
+  the same through our official support channels.
+</p>
+
         </div>
       </div>
     </footer>

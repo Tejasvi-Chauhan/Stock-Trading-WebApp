@@ -10,7 +10,7 @@ const Navbar = () => {
     >
       <div className="container p-2">
         
-        <Link className="navbar-brand" to="/"> <h2 className="m-0">Stock Trading app</h2></Link>
+        <Link className="navbar-brand" to="/"> <h2 className="m-0">EquiTrade</h2></Link>
          
         
 

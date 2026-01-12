@@ -1,0 +1,146 @@
+.profile-wrapper {
+  position: relative;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #e6ddff;
+  color: #6b2bd9;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar.big {
+  width: 40px;
+  height: 40px;
+}
+
+.caret {
+  font-size: 12px;
+  color: #666;
+}
+
+.profile-dropdown {
+  position: absolute;
+  right: 0;
+  top: 42px;
+  width: 220px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  padding: 10px;
+  z-index: 100;
+}
+
+.profile-info {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.profile-info .name {
+  margin: 0;
+  font-weight: 600;
+}
+
+.profile-info .email {
+  margin: 0;
+  font-size: 12px;
+  color: #777;
+}
+
+.dropdown-item {
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background: #f5f5f5;
+}
+
+.dropdown-item.logout {
+  color: #e53935;
+  font-weight: 500;
+}
+/* ===== ORDERS PAGE ===== */
+
+.orders {
+  padding: 20px 30px;
+  background: #fff;
+}
+
+/* table */
+.orders table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+/* header */
+.orders thead tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.orders thead th {
+  text-align: left;
+  padding: 10px 12px;
+  font-weight: 400;
+  color: #777;
+}
+
+/* rows */
+.orders tbody tr {
+  border-bottom: 1px solid #eee;
+}
+
+.orders tbody tr:hover {
+  background: #fafafa;
+}
+
+/* cells */
+.orders td {
+  padding: 14px 12px;
+  color: #333;
+}
+
+/* instrument name */
+.orders td:first-child {
+  font-weight: 50;
+  color: #222;
+}
+
+/* BUY / SELL coloring */
+.orders .BUY {
+  color: #2ecc71;
+  font-weight: 50;
+}
+
+.orders .SELL {
+  color: #e74c3c;
+  font-weight: 50;
+}
+
+/* empty state */
+.no-orders {
+  text-align: center;
+  margin-top: 80px;
+  color: #888;
+}
+
+.no-orders .btn {
+  margin-top: 16px;
+}
+
+

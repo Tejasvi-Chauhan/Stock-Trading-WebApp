@@ -251,13 +251,14 @@ code {
 
 .menu-container {
   flex-basis: 68%;
-  height: 100%;
+  height: 64px;              /* 👈 navbar height */
   padding: 10px 20px;
   box-sizing: border-box;
   display: flex;
-  align-items: center;
+  align-items: center;       /* 👈 vertical center */
   justify-content: space-between;
 }
+
 
 .logo {
   width: 30px;
@@ -266,19 +267,26 @@ code {
 
 .menus {
   display: flex;
-  align-items: center;
+  align-items: center;        /* vertical center */
   justify-content: space-evenly;
+  height: 64px;               /* 👈 MOST IMPORTANT */
 }
+
 
 .menus ul {
   list-style-type: none;
+  margin: 0;                  /* 👈 VERY IMPORTANT */
+  padding: 0;
+  display: flex;              /* inline-block ki zarurat nahi */
+  align-items: center;        /* li ko bhi center karega */
 }
 
+
 .menus li {
-  display: inline-block;
   margin-right: 30px;
-  text-decoration: none;
+  line-height: 1;             /* extra vertical space remove */
 }
+
 
 .menu {
   font-size: 0.8rem;

@@ -1,9 +1,22 @@
 import React from "react";
+import api from "../api/api";
+import  { useState, useEffect } from "react";
+
 
 const Positions = () => {
+   const [allPositions, setallPositions] = useState([]);
+ 
+   useEffect(() => {
+     api.get("/allPositions").then((res) => {
+       // console.log(res.data);
+       setallPositions(res.data);
+     });
+   }, []);
+ 
+
   return (
     <>
-      <h3 className="title">Positions (2)</h3>
+      <h3 className="title">Positions ({allPositions.length})</h3>
 
       <div className="order-table">
         <table>
@@ -16,6 +29,28 @@ const Positions = () => {
             <th>P&L</th>
             <th>Chg.</th>
           </tr>
+
+          {allPositions.map((stock, index) => {
+            const curValue = stock.price * stock.qty;
+            const isProfit = curValue - stock.avg * stock.qty >= 0.0;
+            const profClass = isProfit ? "profit" : "loss";
+            const dayClass = stock.isLoss ? "loss" : "profit";
+
+            return (
+              <tr key={index}>
+                <td>{stock.name}</td>
+                <td>{stock.name}</td>
+                <td>{stock.qty}</td>
+                <td>{stock.avg.toFixed(2)}</td>
+                <td>{stock.price.toFixed(2)}</td>
+              
+                <td className={profClass}>
+                  {(curValue - stock.avg * stock.qty).toFixed(2)}
+                </td>
+                <td className={dayClass}>{stock.day}</td>
+              </tr>
+            );
+          })}
         </table>
       </div>
     </>

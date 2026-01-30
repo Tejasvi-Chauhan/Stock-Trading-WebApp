@@ -13,6 +13,8 @@ The main goal of this project was to understand frontend and backend communicati
 - APIs: Public / mock stock data APIs
 
 ## Features
+- User authentication (login & logout)
+- Authorization to protect authenticated routes
 - View stock prices
 - Buy and sell stocks (simulation)
 - Portfolio overview

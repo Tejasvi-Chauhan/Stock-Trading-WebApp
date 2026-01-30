@@ -1,16 +1,40 @@
-# React + Vite
+# Stock Trading Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal learning project built to understand full-stack web development using React and Node.js.
 
-Currently, two official plugins are available:
+## Project Overview
+The application simulates a basic stock trading environment where users can view stock data and place buy or sell orders.  
+The main goal of this project was to understand frontend and backend communication through APIs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- Frontend: React.js
+- Backend: Node.js, Express.js
+- Database: MongoDB 
+- APIs: Public / mock stock data APIs
 
-## React Compiler
+## Features
+- View stock prices
+- Buy and sell stocks (simulation)
+- Portfolio overview
+- API-based data flow between frontend and backend
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Learning Outcomes
+- React component structure and state management
+- API integration using fetch / axios
+- Backend API creation with Node.js and Express
+- Database connectivity and CRUD operations
+- Understanding full-stack application flow
 
-## Expanding the ESLint configuration
+## Project Status
+This is a personal learning project and is still under development.  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## How to Run (Optional)
+1. Clone the repository
+2. Install dependencies using `npm install`
+3. Start backend and frontend servers
+4. Configure environment variables if required
+
+## Note
+This project was built entirely by me as a learning exercise.  
+Different branches were used for experimentation, and the main branch contains the most stable version.

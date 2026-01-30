@@ -30,7 +30,7 @@ const Login = () => {
 
         // ✅ NO reload
         setTimeout(() => {
-          window.location.href = "http://localhost:5174/"; // or "/"
+          window.location.href = "http://localhost:5173/"; // or "/"
         }, 800);
       } else {
         toast.error(res.message, { position: "bottom-left" });

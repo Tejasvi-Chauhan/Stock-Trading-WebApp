@@ -21,7 +21,7 @@ const app = express();
 /* ================= CORS (NODE 25 SAFE) ================= */
 
 const corsOptions = {
-  origin: ["http://localhost:5173", "http://localhost:5174"],
+  origin: ["http://localhost:5174", "http://localhost:5173"],
   credentials: true,
   httpOnly: true,
   sameSite: "lax",
@@ -31,7 +31,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 /**
- * ✅ SAFE preflight handler (NO app.options("*"))
+ * SAFE preflight handler (NO app.options("*"))
  * Node 25 + Express compatible
  */
 app.use((req, res, next) => {
